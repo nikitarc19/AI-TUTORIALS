@@ -3,7 +3,7 @@ b=input("Enter a second number:")
 d=input("Enter a number:")
 e=input("Enter a second number:")
 
-create a function that add two number
+# create a function that add two number
 def nikita(one, two):
     sum = int(one) + int(two)
     print("The sum is ", sum)

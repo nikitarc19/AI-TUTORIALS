@@ -73,8 +73,8 @@
 #     "age": 16,
 #     "study": True
 # }
-# personInformation['name'] ='Nikita RC'
-# personInformation['gender']='Female'
+# personInformation.name ='Nikita RC'
+# personInformation.age ='Female'
 # print(personInformation)
 # Dictonary is combination of key value pair.
 
@@ -116,16 +116,31 @@ randomArray = [1, 2,3, 4,100, 389, 3903]
 # check_value_is_1(2)
 
 # write a function that check weather the number is even or odd
-def check_odd_or_even(value):
-    if value % 2 ==0:
-        print(f"The value {value} is even")
-    elif value % 2 ==1:
-        print("This is odd value")
-    else:
-        print("Neither even nor odd")   
+# def check_odd_or_even(value):
+#     if value % 2 ==0:
+#         print(f"The value {value} is even")
+#     elif value % 2 ==1:
+#         print("This is odd value")
+#     else:
+#         print("Neither even nor odd")   
 
-check_odd_or_even(80)
+# check_odd_or_even(80)
 
+# Task implement this using function 
+# 1. get input from user
+# 2. check the number is even or odd.
+
+
+# value=int(input("Enter a value:"))
+# def check_odd_or_even(value):
+#     if value % 2 ==0:
+#         print(f"The value {value} is even")
+#     elif value % 2 ==1:
+#         print("This is odd value")
+#     else:
+#         print("Neither even nor odd")   
+         
+# check_odd_or_even(value)         
 
 
 
