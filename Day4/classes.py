@@ -25,7 +25,7 @@ Methods:
 #     # This is called when the instance is called ie a = Person(...args)
 #     # The parameter should be passed based on constructor parameters.
 #     def __init__(self, firstname, lastname, sex, age):
-#         self.lastname = lastname
+#       a  self.lastname = lastname
 #         self.firstname = firstname
 #         self.sex = sex
 #         self.today_time = int(str(datetime.datetime.today()).split('-')[0])
@@ -84,4 +84,19 @@ print(f"Employee: {e.name}")
 print(f"Annual Salary: ${e.get_annual_salary()}")
 print(f"After raise: ${e.give_raise(500)}")
 print(f"Age:{e.calcuate_age()}")
+
+# class bank_Account:
+#    def _init_(self,name ,balance ):
+#     self.name = name
+#     self.balance = balance
+
+#     def account_holder(self):
+#      return self.name
+
+# n=bank_Account(name,balance)
+# print(f"Name of Account:${n.account_holder()}")
+   
+
+
+
 
