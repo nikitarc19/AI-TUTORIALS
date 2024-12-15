@@ -78,8 +78,8 @@ salary=int(input('Enter the Salary of the employee:'))
 dob=int(input('Enter the Date of birth employee'))
 # print(f'{Name} {salary} {id}')
 
-# # Example usage
-e = Employee(Name, id, salary,dob)
+# # Example usaName, id, salary,doge
+e = Employee(b)
 print(f"Employee: {e.name}")
 print(f"Annual Salary: ${e.get_annual_salary()}")
 print(f"After raise: ${e.give_raise(500)}")

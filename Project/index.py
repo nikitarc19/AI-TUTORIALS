@@ -91,3 +91,4 @@ image = {
 toast('Will you be my boyFriend?', 'Click a button',buttons=['Approve', 'Dismiss', 'Other'],image=image)
 toast('Samanuuuu', 'Which do you like?', selection=['ME', 'Mygirlfriend', 'Nikita?'], button='Submit')
 
+
